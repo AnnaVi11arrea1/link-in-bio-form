@@ -1,0 +1,18 @@
+<h1>Add a new item</h1>
+
+<form method="post">
+  <div>
+    <label for="URL">Link URL</label>
+    <input type="text" name="name" class="form-control" id="URL" placeholder="Enter a URL...">
+  </div>
+  <div>
+    <label for="description">Link Description</label>
+    <input type="text" name="name" class="form-control" id="descrption" placeholder="Enter Description...">
+  </div>
+  <div>
+    <label for="thumbnail">Thumbnail URL</label>
+    <input type="text" name="name" class="form-control" id="thumbnail" placeholder="Enter a URL...">
+  </div>
+
+<button type="submit" class="btn btn-primary">Create item</button>
+</form>
